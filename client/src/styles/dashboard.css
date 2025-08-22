@@ -1,0 +1,10 @@
+:root { --card-radius: 1rem; }
+body { background: #f6f8fc; }
+.card { border: 0; border-radius: var(--card-radius);
+        box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06); }
+.kpi { display:flex; align-items:center; gap:.75rem; }
+.kpi i { font-size:1.25rem; opacity:.7; }
+.kpi .val { font-weight:700; font-size:1.35rem; }
+.badge-status { font-size:.75rem; }
+.table thead th { white-space: nowrap; }
+
